@@ -1,0 +1,82 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    margin: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(133, 159, 152);
+    font-size: 16px;
+}
+
+a:hover {
+    color: rgb(6, 143, 255);
+    text-shadow: 0 0 1px rgb(253, 253, 253);
+}
+
+.obj,
+.qd,
+.str,
+.pd,
+.hob,
+.dec {
+    text-align: LEFT;
+    background-color: lightcyan;
+    box-shadow: 1px 3px 5px black;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li,
+p {
+    margin-left: 3%;
+    font-size: 17px;
+    color: rgb(6, 52, 52);
+    line-height: 25px;
+}
+
+table,
+tr,
+th {
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+}
+
+th {
+    height: 50px;
+    padding: 5px;
+}
+
+th:hover {
+    color: teal;
+}
+
+.t {
+    background-color: rgb(234, 255, 234);
+    text-shadow: px 1px 3px black;
+}
+
+.t1 {
+    background-color: rgb(234, 255, 234);
+    text-shadow: px 1px 3px black;
+    font-family: Copperplate Gothic;
+}
+
+.t2 {
+    background-color: rgba(238, 238, 238, 0.843);
+    font-family: Copperplate Gothic;
+    text-shadow: px 1px 3px black;
+}
+
+h4 {
+    float: right;
+}
